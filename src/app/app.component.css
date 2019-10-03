@@ -1,0 +1,50 @@
+/* @font-face {
+  font-family: PokemonSolid;
+  src: url("../assets/fonts/pokemonsolid.ttf");
+} */
+
+
+nav {
+  display: flex;
+  background: linear-gradient(#BC6288, #A33A58);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+
+h3 {
+  color: #FFF3D1;
+}
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+#friendsLogo {
+  height: 100%;
+  width: 250px;
+  padding: 10px 20px;
+}
+
+a {
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #FFF3D1;
+}
+
+a:hover {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.active {
+  padding: 5px 10px;
+  background: rgba(104, 99, 99, 0.329);
+  border-radius: 5px;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  letter-spacing: 2px;
+}

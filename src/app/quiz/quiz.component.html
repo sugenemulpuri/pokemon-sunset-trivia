@@ -1,0 +1,72 @@
+<main>
+  <form #quizForm="ngForm" (ngSubmit)="onSubmit(quizForm)">
+    <img
+      src="../../assets/professor_oak.png"
+    />
+    <div>
+      <!-- <label for="username" id="usernameLabel">Enter your name! </label> -->
+      <input
+        class="usernameInput"
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your name here."
+        [(ngModel)]="username"
+      />
+    </div>
+    <div class="questionBox" *ngFor="let question of questionList; index as i">
+      <h4 id="questionText">{{ question.question_name }}</h4>
+      <div id="radioAndLabel">
+        <input
+          id="choice1{{ i }}"
+          type="radio"
+          name="{{ i }}"
+          class="choice"
+          value="{{ question.choice1 }}"
+          ngModel
+        /><label for="choice1{{ i }}" class="choiceLabel">{{
+          question.choice1
+        }}</label>
+      </div>
+      <div id="radioAndLabel">
+        <input
+          id="choice2{{ i }}"
+          type="radio"
+          name="{{ i }}"
+          class="choice"
+          value="{{ question.choice2 }}"
+          ngModel
+        /><label for="choice2{{ i }}" class="choiceLabel">{{
+          question.choice2
+        }}</label>
+      </div>
+      <div id="radioAndLabel">
+        <input
+          id="choice3{{ i }}"
+          type="radio"
+          name="{{ i }}"
+          class="choice"
+          value="{{ question.choice3 }}"
+          ngModel
+        /><label for="choice3{{ i }}" class="choiceLabel">{{
+          question.choice3
+        }}</label>
+      </div>
+      <div id="radioAndLabel">
+        <input
+          id="choice4{{ i }}"
+          type="radio"
+          name="{{ i }}"
+          class="choice"
+          value="{{ question.choice4 }}"
+          ngModel
+        /><label for="choice4{{ i }}" class="choiceLabel">{{
+          question.choice4
+        }}</label>
+      </div>
+    </div>
+    <button id="completeButton" [disabled]="!username">
+      Done!
+    </button>
+  </form>
+</main>

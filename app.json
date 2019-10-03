@@ -1,0 +1,5 @@
+{
+    "name": "Pokémon Sunset Trivia",
+    "description": "Sunset themed Pokémon Trivia Game",
+    "image": "heroku/nodejs"
+    }

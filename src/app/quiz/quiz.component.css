@@ -1,0 +1,113 @@
+@font-face {
+  font-family: PokemonSolid;
+  src: url("../../assets/fonts/pokemonsolid.ttf");
+}
+
+
+main {
+  margin: 0;
+  padding: 0;
+  /* background: #111111; */
+  background: linear-gradient(#b1585e, rgb(145, 53, 55),rgb(130, 53, 58),rgb(114, 35, 35),rgb(84, 25, 34), rgb(75, 14, 14));
+  /* background: linear-gradient(#b1585e, rgb(145, 53, 55),rgb(130, 53, 58),rgb(114, 35, 35),rgb(84, 25, 34), rgb(75, 14, 14)); */
+
+
+  background-size: cover;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 65%;
+  margin: 20px 0;
+  color:rgb(226, 215, 215);
+  background: linear-gradient(#b1585e, rgb(145, 53, 55),rgb(130, 53, 58),rgb(114, 35, 35),rgb(84, 25, 34), rgb(75, 14, 14));
+  /* background: url("../../assets/cropped-sky-grass-three.jpg"); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#usernameLabel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+}
+
+.usernameInput {
+  margin: 0 0 20px 5px;
+  padding: 5px 10px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: white;
+  /* background-color:rgb(172, 112, 48); */
+  border-radius: 10px;
+}
+
+.questionBox {
+  background: rgba(124, 120, 120, 0.267);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#questionText {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.choiceLabel {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.choiceLabel:hover {
+  background: rgba(128, 128, 128, 0.397);
+  border-radius: 10px;
+  width: 40%;
+}
+
+input[type=radio]:checked+.choiceLabel {
+  background: rgba(0, 178, 232, 0.582);
+  width: 40%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#radioAndLabel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+#completeButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  width: 30%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  background: rgb(172, 112, 48);
+}
+
+#completeButton[disabled],
+#completeButton[disabled]:hover {
+  background: rgb(250, 213, 209);
+}
+
+#completeButton:hover {
+  background: rgb(86, 83, 150);
+}

@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: PokemonSolid;
+  src: url("/assets/fonts/pokemonsolid.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  /* background: linear-gradient(#78CAF9, #7FCCFC, #D1E1FB, #B9E2F8, #E6FAFF, 	#99BCED, 	#688DEE, #B8EA88,	#80AC71); */
+  /* background-image: url('/assets/pokemon-water.jpg');
+  background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: contain; */
+  
+}

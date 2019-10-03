@@ -1,0 +1,105 @@
+main {
+  /* background: linear-gradient(#78CAF9, #7FCCFC, #D1E1FB, #B9E2F8, #E6FAFF, 	#99BCED, 	#688DEE, #B8EA88,	#80AC71); */
+
+  /* background-image: url('../../assets/cropped-sky-grass-three.jpg'); */
+  /* background-image: url('../../assets/pokemon-water.jpg'); */
+  background-image: url('/assets/pokemon-water.jpg');
+  /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+/* div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 39%;
+  width: 13%;
+  background-color: #7C71AB;
+  padding: 20px;
+} */
+
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: #585C90;
+}
+
+p {
+  margin-top: 0;
+}
+.wholePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 100vh; */
+}
+
+.ball {
+  height: 256px;
+  width: 256px;  
+  border-radius: 256px;
+  display: flex;
+  border: 4px black solid;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#BB3253 5%, #E55C69 49%, 	#2D0211 50%, 	#F8F6D3 49%, 	#D59D8E)
+}
+
+
+
+.center, #centerStart {
+  background: #FFF3D1;
+  border: 3px #2D0211 solid;
+}
+.center {
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #985C7B;
+}
+#centerStart {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  background-image: radial-gradient(FFF3D1 60%, #D59D8E);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.ball:hover{
+  transition-duration: 4s;
+  transform: rotate(360deg);
+}
+
+/* #enterQuizButton {
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  padding: 20px 10px;
+  font-size: 17px;
+  background: #FBD550;
+  border-radius: 10px;
+}
+
+#enterQuizButton:hover {
+  color: white;
+  background: rgb(65, 53, 112);
+  box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 1);
+} */
