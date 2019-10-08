@@ -1,5 +1,5 @@
 main {
-  background: black;
+  background: linear-gradient(#b1585e, rgb(145, 53, 55),rgb(130, 53, 58),rgb(114, 35, 35),rgb(84, 25, 34), rgb(75, 14, 14));
   display: flex;
   flex-direction: column;
   color: white;
@@ -17,7 +17,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: rgba(234, 24, 31, 0.699);
+  background: linear-gradient(#b1585e, rgb(145, 53, 55),rgb(130, 53, 58),rgb(114, 35, 35),rgb(84, 25, 34), rgb(75, 14, 14));
   padding: 20px;
   border-radius: 10px;
 }
@@ -74,7 +74,7 @@ h3 {
 
 #usersAnswer {
   font-style: italic;
-  color: #fabd0f;
+  background: rgb(172, 112, 48);
   font-size: 14px;
 }
 
@@ -87,14 +87,14 @@ h3 {
   border: none;
   border-radius: 10px;
   margin: 10px;
-  background: rgba(250, 187, 15, 0.63);
+  background: rgb(250, 213, 209);
 }
 
 #redoQuizButton {
-  background: #00b2e8ad;
+  background: rgb(250, 213, 209);
 }
 
 #scoreBoardButton:hover,
 #redoQuizButton:hover {
-  background: rgba(234, 24, 31, 0.699);
+  background: rgb(86, 83, 150);
 }
